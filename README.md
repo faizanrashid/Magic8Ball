@@ -8,8 +8,7 @@ Author: Faizan Rashid
 
 Introduction
 ============
-
-
+A simple Magic 8 Ball application. Currently running on twitter handle: magic8all
 
 Using the code
 ================
