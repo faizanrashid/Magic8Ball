@@ -7,8 +7,8 @@ from random import choice
 
 '''Authorization'''
 def authenticate():
-	#Authentication
-	api = twitter.Api(consumer_key='Dmq6ujtXIEA2N2RO8CCBw', consumer_secret='wVe9p6vWaTxg5lIuSzjN5sNMOUJUxQx52o0WGSVa6jQ', access_token_key='1321505791-44SyvpFjmQT3fdkxZcv4PvJtVVctmJw0Y3m63gW',access_token_secret='bCzIxyQ4Z8jzaqnxckpDUglhlLD5Ql9Z0xTiqz5WYc')
+	#[TODO] Add authentication to your magic 8 ball user account
+	api = twitter.Api(consumer_key='', consumer_secret='', access_token_key='',access_token_secret='')
 
 	return api
 
@@ -30,7 +30,7 @@ if __name__== "__main__":
 
 	#File that holds the id of the last tweet read
 	LATESTFILE = 'latest.txt'	
-	os.chdir("/home/faizan/magic8all")
+	os.chdir("") #[TODO] Add current directory path here
 	latest_file = open(LATESTFILE)
 	
 	latest_tweet_id = find_latest_tweet_id(latest_file)
