@@ -45,7 +45,7 @@ if __name__== "__main__":
 
 			#find user mentions and remove magic8all from it
 			return_status = "@" + status.user.screen_name + " "
-			for user in status.user_mentions:
+			for user in user_mentions:
 				if (user.screen_name.lower() != 'magic8all'):
 					return_status += "@" + user.screen_name + " "
 			 
